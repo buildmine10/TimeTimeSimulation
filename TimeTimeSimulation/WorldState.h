@@ -7,8 +7,8 @@ class WorldState
 private:
 
 public:
-	virtual bool operator==(const WorldState& other) const;
+	bool operator==(const WorldState& other) const;
 
-	virtual WorldState update(double deltaTime) const;
+	WorldState update(double deltaTime) const;
 };
 
