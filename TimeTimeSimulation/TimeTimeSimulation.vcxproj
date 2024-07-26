@@ -127,14 +127,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="GameState.cpp" />
     <ClCompile Include="TimeState.cpp" />
     <ClCompile Include="TimeTime.cpp" />
     <ClCompile Include="TimeTimeSimulation.cpp" />
     <ClCompile Include="WorldState.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="GameState.h" />
     <ClInclude Include="TimeState.h" />
     <ClInclude Include="TimeTime.h" />
     <ClInclude Include="WorldState.h" />
