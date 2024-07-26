@@ -17,6 +17,13 @@ void TimeTime::initialize(const WorldState& initial)
 	next.initialize(initial);
 }
 
+void TimeTime::initialize(const TimeState& initial)
+{
+	previous = initial;
+	current = initial;
+	next = initial;
+}
+
 void TimeTime::update()
 {
 	//This can be safely multithreaded

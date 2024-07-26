@@ -21,6 +21,7 @@ public:
 	TimeTime(double deltaTime = 1.0 / 20, double maxTime = 1);
 
 	void initialize(const WorldState& initial);
+	void initialize(const TimeState& initial);
 
 	void update();
 
